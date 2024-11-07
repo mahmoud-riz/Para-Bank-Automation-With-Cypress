@@ -44,6 +44,13 @@ The scenario covered in this project includes user registration, login, updating
 
 7. **Request Loan**
    - Verify that a user can successfully request a loan after registration.
+  
+8. **check Balance**
+   -Verify that the tatal amount for allcount equal sum of balance in each account .
+   
+9. **Logout**
+   - Verify that a user can successfully Logout from the websit .
+   
 
 ## How to Run This Project
 
@@ -66,4 +73,4 @@ The scenario covered in this project includes user registration, login, updating
 
 To run the Cypress tests, use the following command:
 ```sh
-npx cypress open
+npx cypress run
